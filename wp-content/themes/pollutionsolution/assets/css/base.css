@@ -1,0 +1,483 @@
+/* 
+                Author     : Munjin Hasan Adil
+*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome.eot');
+    src: url('../fonts/FontAwesome.eot?#iefix') format('embedded-opentype'), url('../fonts/FontAwesome.woff2') format('woff2'), url('../fonts/FontAwesome.woff') format('woff'), url('../fonts/FontAwesome.ttf') format('truetype'), url('../fonts/FontAwesome.svg#Baskvill') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {font-size: 1rem;}
+body {font-family: 'Roboto', sans-serif; font-size: 1.1rem; color: #000;} 
+* {outline: none !important;}
+p {line-height: 35px;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Zilla Slab', serif;}
+
+.btn-outline-success {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #53851E;
+    background-color: transparent;
+    background-image: none;
+    border-color: #53851E;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #53851E;
+    border-color: #53851E;
+}
+/*================= Header ===================*/
+header {
+    padding-top: 8px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.phone i {display: inline-block; vertical-align: middle; font-size: 1.88rem; margin-right: 10px; color: #ffc20e;}
+.phone span {display: inline-block; vertical-align: middle; font-size: 1.25rem; font-style: italic;}
+.phone p {line-height: 26px; margin-bottom: 0; text-align: right;}
+.navbar-brand img {margin-bottom: 6px;}
+header .social-icons {margin-bottom: 0;}
+header .social-icons ul {margin-bottom: 15px;}
+
+/*================= Navigation ===================*/
+.menu-primary-menu-container{
+    width: 100%;
+}
+.bg-dark {background-color: #000 !important;}
+.navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,1); font-size: 1.25rem; line-height: 1.25rem;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color: #ffc20e;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc20e;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {color: #7cc92a;}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #d4d4d4;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {color: #7cc92a;}
+.navbar-dark .navbar-toggler {cursor: pointer;}
+.dropdown-item {font-size: 1.2rem;}
+
+/*================= Main Carousel ===================*/
+#mainCarousel {border-top: 1px solid #444444;}
+#mainCarousel h3 {color: #fff; font-weight: bold; font-size: 3rem; margin-bottom: 15px;}
+#mainCarousel p {color: #fff; font-size: 1.5rem;}
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    bottom: auto;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-control-prev, .carousel-control-next {}
+.carousel-indicators .active {
+    background-color: #ffc20e;
+}
+.carousel-indicators li {
+    background-color: rgba(255,255,255,1);
+}
+.carousel-caption span {display: block; margin-top: 10px;}
+.btn-carousel {background: #00529b; color: #fff; padding: 12px 35px; text-transform: uppercase; margin-top: 10px;}
+.btn-carousel:hover {background: #ffc20e; color: #000;}
+
+/*================= Welcome =================*/
+.welcome {
+    color: #000;
+    padding-top: 35px; 
+    padding-bottom: 60px;
+}
+.welcome h2 {font-size:4rem; margin-top: 15px; margin-bottom: 0; text-align: center; font-weight: 600;}
+.welcome h5 {font-size:2rem; margin-top: 5px; margin-bottom: 45px; text-align: center; font-weight: 400;}
+.welcome p {font-size: 1rem; line-height: 2.15rem;}
+
+.btn-welcome {background: #00529b; color: #fff; padding: 12px 35px; text-transform: uppercase; margin-top: 10px;}
+.btn-welcome:hover {background: #ffc20e; color: #000;}
+
+/*================= Weekly Specials =================*/
+.weekly-specials {
+    padding-top: 35px; 
+    padding-bottom: 65px;
+    background: #eaeaea;
+}
+.weekly-specials h2 {font-size:4rem; margin-top: 15px; margin-bottom: 40px; text-align: center; font-weight: 600;}
+.weekly-specials h4 {
+    padding-bottom: 0;
+    font-size: 1.7rem; 
+    margin-top: 20px;
+    position:relative;
+    display:inline-block;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.weekly-specials-box {color: #000; padding: 10px 15px 30px 15px;}
+.weekly-specials h4:after {
+    content:'';
+    position:absolute;
+    left:0; 
+    right:0;
+    top:100%;
+    margin:15px auto 20px;
+    width:40px;
+    height:3px;
+    background:#53851E;
+}
+.btn-weekly-specials {background: none; border: 2px solid #00529b; color: #000; padding: 12px 35px; text-transform: uppercase; margin-top: 10px;}
+.btn-weekly-specials:hover {background: #00529b; color: #fff;}
+.btn-weekly-reserve {background: none; border: 2px solid #ffc20e; color: #000; padding: 12px 35px; text-transform: uppercase; margin-top: 10px;}
+.btn-weekly-reserve:hover {background: #ffc20e; color: #fff;}
+
+/*================= Drinks And Reservation =================*/
+.drinks-reservation {
+    background: #ffc20e;
+    color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.drinks-reservation .container {padding-top: 50px;}
+.drinks-reservation h2 {font-size: 3rem; margin-bottom: 15px; font-weight: bold; width: 100%;}
+.drinks-reservation h3 {font-size: 1.50rem; margin-bottom: 12px;}
+.drinks-reservation h2 span {display: block; font-size: 1.25rem; margin-top: 10px;}
+.drinks-reservation p {line-height: 30px; font-size: 1rem;}
+.drinks-reservation .lead {margin-bottom: 20px;}
+
+#drinksCarousel {padding: 10px 20px 5px 20px; background: #000; border-radius: 5px; margin-bottom: 10px; border: 3px solid #fff;}
+#drinksCarousel .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+#drinksCarousel h4 {margin-bottom: 5px; margin-top: 15px; color: #bfbfbf;}
+#drinksCarousel p {font-weight: 300; margin-bottom: 0; color: #bfbfbf;}
+#drinksCarousel span {font-weight: 500; font-style: italic; color: #bfbfbf; font-size: 1.38rem; margin-bottom: 5px;}
+
+.reservation {text-align: center;}
+.reservation h4 {margin-bottom: 20px; font-size: 2rem; margin-bottom: 30px;}
+.reservation input {height: 60px;}
+.reservation .btn {width: 100%; text-transform: uppercase; font-size: 1.19rem; padding: 15px 10px; background: #fff; color: #000;}
+.reservation .btn:hover {background: #000; color: #fff;}
+.reservation-m-t {margin-top: 50px;}
+
+/*================= Live Music =================*/
+.live-music {
+    color: #000;
+    background: #fff url(../img/music-notes-8391476.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 40px; 
+    padding-bottom: 80px;
+}
+.live-music h2 {font-size:4rem; margin-top: 15px; margin-bottom: 45px; text-align: center; font-weight: 600;}
+.live-music p {font-size: 1.50rem; line-height: 3.15rem;}
+
+/*================= Private Parties ===================*/
+.private-parties {background: #3f3f3f; padding-top: 30px; padding-bottom: 60px; color: #fff;}   
+.private-parties h2 {font-size:4rem; margin-top: 15px; margin-bottom: 45px; text-align: left; font-weight: 600;}
+.btn-private-parties {background: #00529b; color: #fff; padding: 12px 25px; text-transform: uppercase;}
+.btn-private-parties:hover {background: #ffc20e; color: #fff;}
+.private-parties i {margin-left: 10px;}
+
+
+/*================= Partners Carousel ===================*/
+.partners {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.partners-wrapper { 
+    position: relative;
+}
+.partners .partners-item {
+    margin: 0 20px;
+}
+.partners .item::before {
+    content: url('../img/steelers_logo.png');
+    position: absolute;
+    left: -20px;
+    top: 33%;
+}
+
+.customNavigation {
+    position: absolute;
+    top: 32%;
+    width: 100%;
+}
+.customNavigation img {
+    position: relative; 
+    z-index: 5; 
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease; 
+}
+.customNavigation img:hover {opacity: 1;}
+.customNavigation a.prev {float: left; margin-left: -8px;}
+.customNavigation a.next {float: right; margin-right: -8px;}
+.partners .partners-item .partners-content {
+    position: relative;
+}
+
+/*================= Footer =================*/
+footer {text-align: left; color: #fff;}
+.footer-contact, .footer-menu, .footer-hours {margin-bottom: 40px;}
+footer h4 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    position:relative;
+    display:inline-block;
+    font-weight: bold;
+}
+.footer-hours-box {margin-bottom: 30px;}
+footer h5 {font-weight: bold; color: #000; font-size: 1.5rem;}
+
+.fa-phone {font-size: 22px;}
+.fa-phone span {font-size: 24px; margin-left: 10px;}
+
+.fa-envelope {margin-top: 5px; font-size: 18px;}
+.fa-envelope a { margin-left: 10px; color: #fff;}
+.fa-envelope a:hover {color: #ffc20e;}
+.footer-top {padding-top: 60px; background: #00529b;}
+.footer-top ul li {margin-bottom: 17px;}
+.footer-top ul {padding-left: 20px;}
+.footer-top ul li a {color: #fff;}
+.footer-bottom {background: #000; padding-top: 25px; padding-bottom: 17px; color: #fff; text-align: center;}
+footer .copyright {margin-bottom: 4px; font-size: 14px; color: #bfbfbf;}
+footer .credit p {margin-bottom: 4px; font-size: 10px; color: #bfbfbf; line-height: 16px;}
+.social-icons {display: inline; text-align: center; margin: 0 auto 20px;}
+.social-icons ul {margin-bottom: 22px; padding-left: 0;}
+.social-icons li {display: inline-block; margin: 0 3px;}
+.social-icons .btn-social-icon {width: 37px !important; height: 37px !important; border-radius: 35px; border: 2px solid #00529b; padding: 7px 5px 0;}
+.social-icons .fa {font-size: 18px !important; color: #fff;}
+.social-icons .btn {background: #00529b;}
+.social-icons i {font-size: 24px;}
+.btn-facebook:hover {background: #ffc20e; border-color:#ffc20e;}
+.btn-twitter:hover {background: #ffc20e; border-color: #ffc20e;}
+.btn-google-pl:hover {background-color: #e3411f; border-color: #e3411f;}
+.social-icons .btn:hover i {color: #fff;}
+.credit {margin-top: -60px;}
+.credit p {float: right; text-align: left; font-size: 11px; line-height: 15px; color: #707070;}
+.credit a {font-size: 11px; line-height: 15px; color: #707070;}
+.credit a:hover {color: #f5f5f5;}
+
+/*================= Media =================*/
+@media (max-width: 1290px) {
+    .carousel-caption {top: 20%;}
+    #mainCarousel h3 {font-size: 2rem;}
+    #mainCarousel p {font-size: 1rem;}
+}
+@media (max-width: 1199px) {
+    .navbar-expand-lg .navbar-nav .nav-link {text-align: center; font-size: 1rem; padding-right: .5rem; padding-left: .5rem;}
+
+}
+@media (max-width: 992px) {
+    html {font-size: .85rem;}
+    header {position: static;}
+    .ristos-menu {padding-top: 30px; padding-bottom: 40px;}
+    .ristos-menu h2 {margin-bottom: 30px;}
+    .navbar-expand-lg .navbar-nav .nav-link {font-size: 1.5rem;}
+    .credit {margin-top: 10px;}
+    .credit p {float: none; text-align: center; margin-top: 10px;}
+    header {text-align: center;}
+    .mb-25 {margin-bottom: 25px;}
+    .navbar-dark .navbar-nav .nav-link {margin-bottom: 17px;}
+    .phone {margin-bottom: 7px;}
+    .phone p {text-align: center;}
+}
+@media (max-width: 768px) {
+    .reservation-m-t {margin-top: 0;}
+}
+@media (max-width: 576px) {
+    .featured, .reservation {margin-top: 30px;}
+    .footer-hours {margin-bottom: 10px !important;}
+    .phone {margin-bottom: 10px;}
+    .weekly-specials-box {padding-bottom: 0;}
+    .welcome h2 {font-size: 2.5rem;}
+    .welcome h5 {font-size: 1.5rem;}
+    .weekly-specials h2 {font-size: 2.5rem;}
+    .drinks-reservation h2 {font-size: 2.5rem;}
+    .live-music h2 {font-size: 3rem;}
+    .ristos-menu h2 { font-size:3rem}
+    .private-parties h2 {font-size:3rem;}
+    .drinks-reservation .container {padding-top: 40px;}
+}
+
+/*================= Weekly Specials Image Hover Effect =================*/
+.ih-item {
+    position: relative;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item,
+.ih-item * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ih-item a {
+    color: #333;
+}
+.ih-item a:hover {
+    text-decoration: none;
+}
+.ih-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.ih-item.circle {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ih-item.circle .img {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ih-item.circle .img:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item.circle .img img {
+    border-radius: 50%;
+}
+.ih-item.circle .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ih-item.square {
+    position: relative;
+    width: 316px;
+    height: 216px;
+    border: 8px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.ih-item.square .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ih-item.circle.effect18 {
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    perspective: 900px;
+}
+.ih-item.circle.effect18 .img {
+    z-index: 11;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.ih-item.circle.effect18.colored .info .info-back {
+    background: #1a4a72;
+}
+.ih-item.circle.effect18 .info {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.ih-item.circle.effect18 .info .info-back {
+    opacity: 1;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+}
+.ih-item.circle.effect18 .info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 0 30px;
+    padding: 55px 0 0 0;
+    height: 110px;
+    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.ih-item.circle.effect18 .info p {
+    color: #bbb;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ih-item.circle.effect18.bottom_to_top .img {
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+.ih-item.circle.effect18.bottom_to_top a:hover .img {
+    -webkit-transform: rotate3d(1, 0, 0, 180deg);
+    -moz-transform: rotate3d(1, 0, 0, 180deg);
+    -ms-transform: rotate3d(1, 0, 0, 180deg);
+    -o-transform: rotate3d(1, 0, 0, 180deg);
+    transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.ih-item.circle.effect18.top_to_bottom .img {
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.ih-item.circle.effect18.top_to_bottom a:hover .img {
+    -webkit-transform: rotate3d(1, 0, 0, -180deg);
+    -moz-transform: rotate3d(1, 0, 0, -180deg);
+    -ms-transform: rotate3d(1, 0, 0, -180deg);
+    -o-transform: rotate3d(1, 0, 0, -180deg);
+    transform: rotate3d(1, 0, 0, -180deg);
+}
+

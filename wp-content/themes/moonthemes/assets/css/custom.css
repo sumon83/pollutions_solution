@@ -1,0 +1,50 @@
+section {
+    padding: 30px 0px;
+    width: 100%;
+}
+
+#footer {
+    background-color: #202126;
+}
+#footer-bottom {
+    background-color: #111015;
+}
+.header.fixed-header {
+    background-color: #00007f;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: 600;
+}
+.footer-widget form .btn-primary{
+	position: relative;
+}
+.footer-widget .form-group input {
+    height: 35px;
+    padding: 5px;
+    color: #ffffff;
+	background-color: #000;
+}
+.footer-widget .form-group textarea{
+	color: #ffffff;
+	background-color: #000;
+}
+.widget-content .form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.carousel-caption {
+    bottom: 150px;
+    }
+.phone h6{
+	color: #ffffff !important;
+}    
+#banner {
+    background: transparent url("../images/1.jpg") no-repeat fixed center center / cover;
+    padding: 120px 0px 0px;
+    position: relative;
+}
+.mission-vission img{
+	max-height: 300px;
+}
+.widget-content .address li{ float:none;}
+.feedback p{ padding-top:30px;}

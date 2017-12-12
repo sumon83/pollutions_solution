@@ -1,0 +1,133 @@
+@media screen and (max-width:1300px){.carousel-caption span{font-size:40px;line-height:50px}
+.owl-controls .owl-nav .owl-next, .owl-controls .owl-nav .owl-prev{position:inherit;transform:none}
+}
+@media screen and (max-width:1200px){.navbar-nav > li{padding:0 18px}
+.carousel-caption span{font-size:30px}
+.quote-title{padding:15px 30px}
+#slider .form-control{margin-top:5px}
+#slider .form-group textarea{height:55px !important}
+#slider .form-group .btn-primary{margin-top:15px}
+.popular_tab li{margin-bottom:15px}
+.sidebar-widget button{padding:0 15;font-size:11px}
+.service_quote_form li{width:100%}
+.how-work{padding:50px 30px}
+.carousel-caption{bottom:-50px}
+#slider .request-quote,
+.request-quote-2{display:none}
+.cart-form{width:100%;overflow:scroll}
+}
+@media screen and (max-width:1024px){.guaranty-safety-right{height:300px;width:300px}
+}
+@media screen and (max-width:991px){.flex-box{display:table}
+.carousel-caption{bottom:-20px}
+.sub-title{width:100%}
+.top-right ul li:first-child{display:none}
+.navbar-brand img{width:110px;margin:10px 0}
+.navbar-nav > li{padding:0 7px}
+.request-quote-2 .request-quote{position:inherit;margin-top:30px;transform:none;-webkit-transform:none;-ms-transform:none;-o-transform:none;-moz-transform:none}
+.achivement > span{font-size:12px;font-weight:600}
+.service-left{position:inherit;margin:0}
+.ask-question{margin-top:30px;display:inline-block;width:100%}
+.get-tch p{line-height:30px}
+.why-choose-img,
+.why-choose-img.overflow-hidden{display:none}
+.achivement-2 .achivement{background-image:none}
+.specification-item{margin-bottom:30px}
+.specification-item span, .specification-item .white-line{display:none}
+#footer-bottom{height:auto}
+#footer-bottom .copyright span{float:none}
+.pricing-2 .pricing-nav li a{font-size:13px;padding:0 10px}
+.all-comments{text-align:center}
+.comment-item > img{float:none;margin-right:0px}
+.all-comments .margin{margin-left:0px}
+.sign-up-form, .sign-up-form .form-control,
+.package-values{width:100%}
+.package-values-item{width:50%;margin-bottom:30px}
+.certification-item-list{text-align:center}
+.certification-item-list img{margin-right:0px;width:100%}
+.certification-item-list .certification-details{margin-top:30px;display:inline-block}
+.guaranty-safety-right{margin-top:80px}
+.navbar-nav .dropdown-menu ul{left:inherit;right:100%}
+.product-quantity > p{display:none}
+.bottom-nav{text-align:center}
+.info-pages .item{display:inherit}
+.info-pages .item img{width:100%;margin-bottom:15px}
+}
+@media screen and (min-width:768px){.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active:hover > a,
+.navbar-default .navbar-nav > .active > a:focus{background-color:transparent;-moz-transition:all 300ms ease-in-out 0s;-ms-transition:all 300ms ease-in-out 0s;-o-transition:all 300ms ease-in-out 0s;-webkit-transition:all 300ms ease-in-out 0s;transition:all 300ms ease-in-out 0s}
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li ul.dropdown-menu{-moz-transition:all 300ms ease-in-out 0s;-ms-transition:all 300ms ease-in-out 0s;-o-transition:all 300ms ease-in-out 0s;-webkit-transition:all 300ms ease-in-out 0s;transition:all 300ms ease-in-out 0s}
+.navbar-default .navbar-nav li > ul.dropdown-menu{visibility:hidden;display:block;opacity:0;-ms-transform:scale(0.9);-o-transform:scale(0.9);-webkit-transform:scale(0.9);-moz-transform:scale(0.9);transform:scale(0.9)}
+.navbar-default .navbar-nav li:hover > ul.dropdown-menu{visibility:visible;opacity:1;-ms-transform:scale(1);-o-transform:scale(1);-webkit-transform:scale(1);-moz-transform:scale(1);transform:scale(1)}
+.navbar-nav .dropdown-menu ul{left:100%;top:0}
+.carousel-inner > .item > img{display:block;height:auto;max-width:inherit;width:100%}
+}
+@media screen and (min-width:768px) and (max-width:1024px){.navbar-right .dropdown-menu{right:0;left:auto;}
+.navbar-nav .dropdown-menu ul{left:inherit;right:100%;top:0}
+}
+@media screen and (max-width:767px){.header-top{display:none}
+.header{position:inherit}
+.main-nav{background-color:rgba(0, 0, 0, 1)}
+.navbar-nav > li > a > i,
+.navbar-default .navbar-nav > li > a{line-height:45px}
+.navbar-nav .dropdown-menu > li > a{padding:5px 20px}
+.navbar-nav > li{width:100%}
+.navbar-collapse{padding-left:0;padding-right:0;max-height:80vh}
+.carousel-inner > .item > img{display:block;height:580px;max-width:inherit;width:auto}
+.navbar-nav .open .dropdown-menu,
+.navbar-nav .dropdown-menu{position:static;background-color:transparent;width:100%}
+.search-bar{display:none}
+.navbar-right{margin:0}
+.top-left > span{display:none}
+.sub-title{width:100% !important}
+.request-quote-2 .request-quote{transform:none !important}
+.testimonials-carousel.owl-carousel .feedback{padding:0;width:100%}
+.welcome-item{margin-bottom:30px}
+.why-choose-img, .why-us-img{margin-bottom:30px}
+.achivement{text-align:center;margin-bottom:30px}
+.error-page p{width:100%}
+.blog-detail .blog-text blockquote{margin:30px 0}
+.related-post .post{margin-left:0;width:100%}
+.product-top-tool{margin-top:30px}
+.all-product-list .product-img{width:100%}
+.all-product-list .product-detail{padding:30px;width:100%}
+.preview-gallery{float:none;margin-right:0}
+.preview-gallery img{display:inline-block}
+.product-info .product-detail{margin-top:30px}
+.product-info-tab .nav-tabs li{margin-bottom:2px}
+.product-preview{display:inherit}
+.product-item .price{width:80%}
+.support-article{margin-top:30px}
+.product-information p{display:none}
+#support-article-details .article-details{margin-top:30px}
+.profile-details-img{margin-top:30px}
+.experience-item{border:1px solid;padding:30px;text-align:center}
+.working-experience-items::before,
+.experience-content-left h6::before,
+.experience-content-right h6::before,
+.btn-experience-right .btn-primary::before,
+.btn-experience-left .btn-primary::before{display:none}
+.btn-experience-left{float:none !important;margin:0 0 30px 0}
+.experience-content-left{text-align:center}
+.btn-experience-right{margin:30px 0 0 0}
+.achivment-caption{width:100%}
+.download-btn{position:relative;right:0;transform:none}
+.carousel-indicators-2 .carousel-indicators{right:0}
+.sign-form .row.flex-box{display:inherit}
+.sign-form .col-md-4.bg-default{display:none}
+.sign-form::before{background:transparent !important}
+}
+@media screen and (max-width:500px){#banner{padding:0}
+.banner-nav, .page-titile{display:table;float:none !important;margin:15px auto}
+.pagination a{margin-bottom:5px}
+.package-values-item{width:100%}
+.service_quote_form li{font-size:11px}
+.product-item .price{width:60%}
+.guaranty-safety-right{height:190px;width:190px}
+.guaranty-safety-right > img{width:50px}
+.btn-safety-right, .btn-safety-left{top:40%}
+#footer-bottom{line-height:30px;padding-top:15px}
+.guide.flex-box{display:inline-block}
+.certification-item-list-detail .banner-title{top:10%}
+}
