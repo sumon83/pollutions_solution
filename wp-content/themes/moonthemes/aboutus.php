@@ -4,19 +4,6 @@
 
  ?>	
 
-<!--Banner Section-->
-<section id="banner">
-	<div class="container">
-    	<div class="row">
-			<div class="col-md-12">
-				<div class="banner-content">
-					<h1 class="page-titile"><?php echo the_title();?></h1>
-					<?php breadcrumbs($id); ?>
-				</div>
-			</div>
-        </div>
-    </div>
-</section>
 	<!--Company Intro Section-->
 	<?php if(have_posts()):?>
 	<section class="full-row overflow-hidden">

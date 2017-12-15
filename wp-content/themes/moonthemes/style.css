@@ -1,0 +1,21 @@
+/*
+
+Theme Name: Moon Themes
+Theme URI: https://wordpress.org/themes/moonthemes/
+Author: Md Shafiqul Islam
+Author URI: https://facebook.com/shafiqpabna/
+Description: My theme is clean, blog-focused, and designed for clarity. Straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: bellatheme
+
+*/
+
+strong{
+	font-weight: 600 !important;
+}
+.text-justify{
+	text-align: justify !important;
+}

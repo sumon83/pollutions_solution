@@ -1,6 +1,6 @@
 .h1, .h2, .h3, .h4, .h5, h6, h1, h2, h3, h4, h5, h6,
 [class^="flaticon-"]:before{color:#030d26}
-.main-nav{background-color:rgba(26,26,72, 0.4)}
+.main-nav{background-color:rgba(26, 26, 72, 0.4)}
 .gallery-item:hover .overlay{background-color:rgba(251, 157, 91, 0.8)}
 .testimonials-carousels.owl-carousel .owl-item img{border-color:rgba(255, 255, 255,0.5);}
 #banner:before{background-color:rgba(29, 27, 28, 0.0)}
@@ -8,7 +8,7 @@
 .carousel-inner .item::before,
 .ad-banner::before,
 .blog-item:hover .overlay,
-.overlay-1::before{background-color:rgba(0,0,0,0)}
+.overlay-1::before{background-color:rgba(0,0,0,0.1)}
 .btn{color:#fff}
 .btn-primary{background-color:#fb9d5b;border-color:#fb9d5b}
 .btn-primary:hover, .btn-primary:focus{background-color:transparent;border-color:#fb9d5b;color:#fb9d5b !important}

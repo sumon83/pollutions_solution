@@ -1,24 +1,7 @@
 <?php
 /* Template Name: FAQ*/
  get_header();
-
- ?>	
-
-<!--Banner Section-->
-<section id="banner">
-	<div class="container">
-    	<div class="row">
-			<div class="col-md-12">
-				<div class="banner-content">
-					<h1 class="page-titile"><?php echo the_title();?></h1>
-					<?php breadcrumbs($id); ?>
-				</div>
-			</div>
-        </div>
-    </div>
-</section>
-<!--Latest News Section-->
-<?php
+ 
 $faq = new WP_Query( array(
 	    'post_type' => 'faq'
 	    ));
