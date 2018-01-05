@@ -687,6 +687,11 @@ textarea {
 /*===================== 
 6.	Our Service Section 
 ======================*/
+.service_icons{
+    display: block;
+    margin: 0 auto;
+    width: 65px!important;
+}
 .service-item {
 	margin: 15px 0;
 	padding: 25px 20px

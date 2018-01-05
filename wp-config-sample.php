@@ -23,10 +23,10 @@
 define('DB_NAME', 'pollutio_pollutionsolution');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'pollutio_sumon');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Sumon@87625');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

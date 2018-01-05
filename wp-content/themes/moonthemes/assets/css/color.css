@@ -147,7 +147,7 @@
 .bg-white{background-color:#fff}
 #home-page-2 .service-caption a{color:#030d26}
 .service-item.bg-white:before,
-.service-item.bg-gray:before{background:#fb9d5b}
+.service-item.bg-gray:before{background:rgba(1,37,81,0.6);/*#01408d*/}
 .service-item.bg-white:hover .service-title,
 .service-item.bg-white:hover,
 .service-item.bg-white:hover .service-caption a,

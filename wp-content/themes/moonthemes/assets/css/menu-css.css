@@ -1,0 +1,70 @@
+ul#mainmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#mainmenu li {
+    display: block;
+    position: relative;
+    float: left;
+}
+ul#mainmenu li ul { display: none; }
+ul#mainmenu li a{
+    border-bottom: 2px solid transparent;
+}
+ul.sub-menu li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    padding: 5px 10px!important;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul#mainmenu li a:hover, ul.sub-menu li a:hover { 
+    background: rgba(15,110,10,0.4)!important;
+    color: #ff7f02!important;
+    border-bottom: 2px solid #ff0000;
+}
+ul#mainmenu li:hover > ul.sub-menu {
+    display: block;
+    position: absolute;
+}
+
+ul#mainmenu li:hover li { float: none; }
+
+li:hover a { background: rgba(26,26,72,0.5); }
+
+li:hover li a:hover { 
+    background: #2c3e50;
+    color: #fff;
+}
+.main-navigation li ul li { border-top: 0; }
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul:before,
+ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+.our-work-flow{
+    background: url(../images/word-flow-bg.png) no-repeat top left;
+    background-size: cover;
+    min-height: 550px;
+}
+.our-work-flow .service-caption{
+    min-height: 220px;
+}
+.content_flow ul{
+    color: black;
+}

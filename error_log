@@ -1,0 +1,13 @@
+[28-Nov-2017 04:32:44 America/Chicago] PHP Warning:  require_once(/home/pollutio/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/pollutio/public_html/wp-load.php on line 49
+[28-Nov-2017 04:32:44 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/pollutio/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pollutio/public_html/wp-load.php on line 49
+[28-Nov-2017 15:57:54 America/Chicago] PHP Warning:  require_once(/home/pollutio/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/pollutio/public_html/wp-load.php on line 49
+[28-Nov-2017 15:57:54 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/pollutio/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pollutio/public_html/wp-load.php on line 49
+[28-Nov-2017 22:35:07 America/Chicago] PHP Warning:  require_once(/home/pollutio/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/pollutio/public_html/wp-load.php on line 49
+[28-Nov-2017 22:35:07 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/pollutio/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pollutio/public_html/wp-load.php on line 49
+[14-Dec-2017 00:07:29 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22
+[15-Dec-2017 03:14:12 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22
+[18-Dec-2017 06:09:33 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22
+[19-Dec-2017 08:45:44 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22
+[19-Dec-2017 14:54:55 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22
+[20-Dec-2017 05:10:50 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22
+[30-Dec-2017 09:27:33 UTC] PHP Warning:  Illegal string offset 'image' in /home/pollutio/public_html/wp-content/themes/moonthemes/projects.php on line 22

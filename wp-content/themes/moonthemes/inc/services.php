@@ -21,7 +21,8 @@ add_action( 'add_meta_boxes', 'add_service_icon_meta_box' );
 
 function show_your_fields_meta_box() {
     global $post;  
-    $meta = get_post_meta( $post->ID, 'service_icon_fields', true ); ?>
+    $meta = get_post_meta( $post->ID, 'service_icon_fields', true ); 
+    ?>
 
   <input type="hidden" name="service_icon_meta_box_nonce" value="<?php echo wp_create_nonce( basename(__FILE__) ); ?>">
   
