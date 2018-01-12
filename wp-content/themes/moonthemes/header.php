@@ -7,14 +7,14 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <?php wp_head(); ?>
     </head>
-    <body class="page-wrapper home-page page-load">
+    <body class="page-wrapper home-page">
 
-        <div class="preloader">
+<!--        <div class="preloader">
             <div id="ajaxloader3">
                 <div class="outer"></div>
                 <div class="inner"></div>
             </div>
-        </div>
+        </div>-->
         <?php global $moontheme; ?>
         <!--Header Section-->
         <header id="header-1" class="header">

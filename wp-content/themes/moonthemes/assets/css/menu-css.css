@@ -21,8 +21,8 @@ ul.sub-menu li a {
     color: #fff;
     padding: 5px 10px!important;
     border-bottom: 2px solid transparent;
-    text-transform: uppercase;
-    font-weight: bold;
+    /*text-transform: uppercase;
+    font-weight: bold;*/
 }
 
 ul#mainmenu li a:hover, ul.sub-menu li a:hover { 
