@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="section-title-area wow fadeIn" data-wow-delay="300ms" data-wow-duration="500ms">
-                            <h2 class="section-title"><?php echo the_title(); ?></h2>
+                           <!--<h2 class="section-title"><?php echo the_title(); ?></h2>-->
                         </div>
                     </div>
                 </div>

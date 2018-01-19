@@ -55,7 +55,7 @@ if (isset($moontheme['opt_slides']) && !empty($moontheme['opt_slides'])) {
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title-area wow fadeIn" data-wow-delay="300ms" data-wow-duration="500ms">
-                        <h2 class="section-title">The way we take care of the projects!</h2>
+                        <h2 class="section-title">The way we take care of Environment!</h2>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ $services = new WP_Query(array(
 if ($services->have_posts()) :
     ?>
     <!--Our Service Section-->
-    <section class="bg-gray our-servic-3 overflow-hidden">
+    <!--<section class="bg-gray our-servic-3 overflow-hidden">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -108,8 +108,8 @@ if ($services->have_posts()) :
             </div>
             <div class="row">
                 <?php
-                while ($services->have_posts()) : $services->the_post();
-                $meta = get_post_meta( $post->ID, 'service_icon_fields', true ); 
+               // while ($services->have_posts()) : $services->the_post();
+               // $meta = get_post_meta( $post->ID, 'service_icon_fields', true ); 
                
                     ?>			
                     <div class="col-md-3 col-sm-4">
@@ -117,20 +117,20 @@ if ($services->have_posts()) :
                             <div class="service-caption">
                                 
                                 <!--<span class="flaticon-video"></span>-->
-                                <img src="<?php echo $meta['image']; ?>" class="img-responsive service_icons" alt="Consultency Icon"  width="95"/>
-                                <a class="margin-top-20" href="<?php the_permalink(); ?>">
-                                    <h4 class="service-title"><?php the_title(); ?></h4>
+                                <!--<img src="<?php //echo $meta['image']; ?>" class="img-responsive service_icons" alt="Consultency Icon"  width="95"/>
+                                <a class="margin-top-20" href="<?php// the_permalink(); ?>">
+                                    <h4 class="service-title"><?php// the_title(); ?></h4>
                                 </a>
-        <?php moontheme_read_more(25); ?>
-                                <a class="btn-link" href="<?php the_permalink(); ?>">Read More</a> 
+        <?php //moontheme_read_more(25); ?>
+                                <a class="btn-link" href="<?php// the_permalink(); ?>">Read More</a> 
                             </div>
                         </div>
                     </div>
-    <?php endwhile; ?> 
+    <?php// endwhile; ?> 
                 <!--<div class="alert alert-danger">Oops, Information is not availabe.</div> -->
-            </div>
+           <!-- </div>
         </div>
-    </section>
+    </section>-->
 <?php endif; ?>
 <!-- Testimonial -->
 <?php
@@ -141,7 +141,7 @@ if (isset($moontheme['opt_testimonials']) && !empty($moontheme['opt_testimonials
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title-area wow fadeIn" data-wow-delay="300ms" data-wow-duration="500ms">
-                        <h2 class="section-title color-white">What our clients says about us</h2>
+                        <h2 class="section-title">What Experts say</h2>
                     </div>
                 </div>
             </div>

@@ -37,25 +37,6 @@
                                         <h6 class="text-white"><i class="fa fa-phone"></i> <?php echo $moontheme['contact'][2]; ?></h6>
                                     <?php endif; ?>
                                 </div>
-                                <ul class="nav navbar-nav">
-                                    <?php if ($moontheme['sociallink'][1]): ?>
-                                        <li><a class="facebook" href="<?php echo $moontheme['sociallink'][1]; ?>"><i class="fa fa-facebook"></i></a></li>
-                                    <?php endif;
-                                    if ($moontheme['sociallink'][2]): ?>
-                                        <li><a class="google" href="<?php echo $moontheme['sociallink'][2]; ?>"><i class="fa fa-google-plus"></i></a></li>
-                                    <?php endif;
-                                    if ($moontheme['sociallink'][3]): ?>
-                                        <li><a class="twitters" href="<?php echo $moontheme['sociallink'][3]; ?>"><i class="fa fa-twitter"></i></a></li>
-                                    <?php endif;
-                                    if ($moontheme['sociallink'][4]): ?>
-                                        <li><a class="instagram" href="<?php echo $moontheme['sociallink'][4]; ?>"><i class="fa fa-linkedin"></i></a></li>
-                                    <?php endif;
-                                    if ($moontheme['sociallink'][5]): ?>
-<?php endif;
-if ($moontheme['sociallink'][5]): ?>
-                                        <li><a class="youtube" href="<?php echo $moontheme['sociallink'][5]; ?>"><i class="fa fa-youtube"></i></a></li>
-<?php endif; ?>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -107,7 +88,7 @@ if ($moontheme['sociallink'][5]): ?>
                                 <div class="col-md-12">
                                     <div class="banner-content">
                                         <h1 class="page-titile"><?php echo the_title(); ?></h1>
-            <?php breadcrumbs($id); ?>
+            <?php// breadcrumbs($id); ?>
                                     </div>
                                 </div>
                             </div>

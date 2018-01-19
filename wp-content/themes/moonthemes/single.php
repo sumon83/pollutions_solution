@@ -9,20 +9,18 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="section-title-area wow fadeIn" data-wow-delay="300ms" data-wow-duration="500ms">
-                            <h2 class="section-title"><?php echo the_title(); ?></h2>
+                            <!--<h2 class="section-title"><?php //echo the_title(); ?></h2>-->
                         </div>
                     </div>
                 </div>
                 <div class="row">			
                     <div class="col-md-12 col-sm-12">
-                        <div class="blog-item image-rotate wow zoomIn" data-wow-delay="300ms" data-wow-duration="500ms">
+                        <div class="blog-item wow " data-wow-delay="300ms" data-wow-duration="500ms">
                             <?php if (has_post_thumbnail()) { ?>
                                 <div class="col-md-4">					
                                     <div class="full-row overflow-hidden">
                                         <?php the_post_thumbnail('large', array('class' => 'img-responsive')); ?>
-                                        <div class="overlay">
-
-                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-md-8">	

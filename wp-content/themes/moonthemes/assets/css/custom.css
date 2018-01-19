@@ -15,6 +15,9 @@ section {
 .navbar-default .navbar-nav > li > a {
 	font-weight: 600;
 }
+.content_flow ul li{
+    font-size: 13px;
+}
 .footer-widget form .btn-primary{
 	position: relative;
 }

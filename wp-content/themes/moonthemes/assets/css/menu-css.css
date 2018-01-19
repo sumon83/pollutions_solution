@@ -34,6 +34,11 @@ ul#mainmenu li:hover > ul.sub-menu {
     display: block;
     position: absolute;
 }
+ul#mainmenu li ul > li:hover ul{
+    position: absolute;
+    left: -490px;
+    right: 225px;
+}
 
 ul#mainmenu li:hover li { float: none; }
 
@@ -59,7 +64,6 @@ ul:after {
 ul:after { clear: both; }
 .our-work-flow{
     background: url(../images/word-flow-bg.png) no-repeat top left;
-    background-size: cover;
     min-height: 550px;
 }
 .our-work-flow .service-caption{
